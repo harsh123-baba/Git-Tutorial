@@ -14,10 +14,20 @@
 
 
 ### Advnaced GIT
-how git it internally working
-Internally git is <key, value> data store.
+`how git it internally working`
+Internally git is `<key, value>` data store.
 key is unique identifier.
-key -> hash of data we want to store / 40 digits hexadecimal value for same             data thsi hash will be same. 
-value -> actual data / git stores compressed data in a blob and some other             metadata in the header.
+`key` -> hash of data we want to store / 40 digits hexadecimal value for same data thsi hash will be same. 
+`value` -> actual data / git stores compressed data in a blob and some other metadata in the header.
 in git it content only stored once.
+Tree structure of .git folder where actually all the data is begin stroed
+![image](https://github.com/harsh123-baba/Git-Tutorial/assets/64320530/5b24738b-d32d-443b-8680-edb323a5e4a6)
+
+in objects directory there is d3 directory so when we are hashing our key so 2 char from front wold be directory for the particular content.
+
+![IMG20231128121232](https://github.com/harsh123-baba/Git-Tutorial/assets/64320530/efd65292-7226-4080-bf84-f6cf721b6c85)
+This is how value -> content is going to store in blob Data structure.
+
+
+
 
