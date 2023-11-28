@@ -10,4 +10,14 @@
 4. `git commit -m <meesage>` -> this creates a new version based on your previous changes.
 5. `git log` -> list downs all the commits of the repository. If you want to exit out of git log prompt
             press `q`.
-6. 
+
+
+
+### Advnaced GIT
+how git it internally working
+Internally git is <key, value> data store.
+key is unique identifier.
+key -> hash of data we want to store / 40 digits hexadecimal value for same             data thsi hash will be same. 
+value -> actual data / git stores compressed data in a blob and some other             metadata in the header.
+in git it content only stored once.
+
