@@ -39,5 +39,16 @@ Tree -> stores information about directories & their content, tree contains poin
 -> git internally does a lot of optimization the objects are stored in compressed form.
 -> It mainly stores data about the change  & algorithmically shows us the file with that change.
 
+![image](https://github.com/harsh123-baba/Git-Tutorial/assets/64320530/fae605e4-3219-4640-a6e7-06763fbcbae0)
+
+
+## let's talk about commits now.
+commit is also stored as objects
+pointes to a tree 
+            * the object has data of
+                        * author & commiter
+                        * Date
+                        * Message
+                        * Parent
 
 
