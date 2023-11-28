@@ -44,11 +44,11 @@ Tree -> stores information about directories & their content, tree contains poin
 
 ## let's talk about commits now.
 commit is also stored as objects
-pointes to a tree 
-  -> the object has data of
-     -> author & commiter
-     -> Date
-     -> Message
-     -> Parent
+every commit object pointes to a tree 
+- commit object has data of 
+  - Author & commiter
+  - Date
+  - Message
+  - Parent
 
 
