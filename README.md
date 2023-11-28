@@ -24,8 +24,8 @@ Tree structure of .git folder where actually all the data is begin stroed
 ![image](https://github.com/harsh123-baba/Git-Tutorial/assets/64320530/5b24738b-d32d-443b-8680-edb323a5e4a6)
 
 in objects directory there is d3 directory so when we are hashing our key so 2 char from front wold be directory for the particular content.
+![Screenshot from 2023-11-28 12-20-43](https://github.com/harsh123-baba/Git-Tutorial/assets/64320530/3095a22f-6036-47f4-b15a-2c463027abd6)
 
-![IMG20231128121232](https://github.com/harsh123-baba/Git-Tutorial/assets/64320530/2191e531-f206-4edd-aca7-cd82439ef561)
 
 This is how value -> content is going to store in blob Data structure.
 
