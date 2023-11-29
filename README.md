@@ -53,7 +53,7 @@ every commit object pointes to a tree
 
 ##### commit is stored like commit in objects and directory is stored like tree.
 
-![tem](https://github.com/harsh123-baba/Git-Tutorial/assets/64320530/31d8a6a1-4f06-43cb-a564-a4074413b9cd)
+![x](https://github.com/harsh123-baba/Git-Tutorial/assets/64320530/c8b1b924-6b62-4c99-9d9d-f6581f024d88)
 
 
 #### Approch to commit whole feature in one commit without fail.
@@ -71,6 +71,7 @@ Stagging area is the place where git knows what will change between current and 
 
 ### Repo area
 All our commits exists
+
 
 
  
