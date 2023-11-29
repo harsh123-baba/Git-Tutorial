@@ -1,4 +1,4 @@
-# Git-Tutorial
+![image](https://github.com/harsh123-baba/Git-Tutorial/assets/64320530/4055f0cf-359e-48a7-9318-ad53b1f4ddbe)# Git-Tutorial
 ### Begineers command
 1. `git init` -> It intialize a new git repository. What is a repository ?
             It is a folder managed by git where we can track all the changes we are making in the project
@@ -50,5 +50,29 @@ every commit object pointes to a tree
   - Date
   - Message
   - Parent
+
+##### commit is stored like commit in objects and directory is stored like tree.
+
+![tem](https://github.com/harsh123-baba/Git-Tutorial/assets/64320530/31d8a6a1-4f06-43cb-a564-a4074413b9cd)
+
+
+#### Approch to commit whole feature in one commit without fail.
+
+if you forget to commit a file and after commit you realised that you forget to commit this that code then basically you will commit again that is not good practice so. 
+`git commit --amend` 
+command will not create other `commit` on `git log` you will find both commits binded in a single commit. 
+
+### Working Area 
+The files/chnages which are not in your staging area and may be currently not handled key git are in working area. These files/changes are also called untracked files
+
+### Stagging area
+files/changes which are surely going to be part of the next commit are in stagging area(i.e. on file/change where we do git add)
+Stagging area is the place where git knows what will change between current and next commit.
+
+### Repo area
+All our commits exists
+
+
+ 
 
 
